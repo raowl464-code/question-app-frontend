@@ -1,0 +1,151 @@
+.questions-page {
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding: 0 54px 40px;
+}
+
+/* Header */
+
+.questions-header {
+  max-width: 1160px;
+  margin: 25px auto 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questions-header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #263238;
+  font-weight: 700;
+}
+
+.post-question {
+  background: #5c6bc0;
+  color: white;
+  padding: 8px 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+/* 
+/* Questions */
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Card */
+
+.question-card {
+  display: flex;
+  gap: 24px;
+
+  background: white;
+  border-left: 5px solid #5c6bc0;
+
+  padding: 25px 30px;
+
+  border-radius: 5px;
+
+  min-height: 160px;
+
+  box-sizing: border-box;
+}
+
+/* Answered question */
+
+.question-card.answered {
+  border-left-color: #999;
+  opacity: 0.7;
+}
+
+/* Large avatar */
+
+.question-avatar {
+  width: 75px;
+  height: 75px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+/* Content */
+
+.question-content {
+  flex: 1;
+}
+
+.question-info {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.question-info a {
+  color: #3f51b5;
+}
+
+.question-text {
+  font-size: 20px;
+  margin: 0 0 25px;
+}
+
+/* Likes */
+
+.question-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.likes {
+  font-size: 19px;
+  color: #218c3a;
+}
+
+/* Small avatars */
+
+.small-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.small-avatars img {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  margin-left: -4px;
+
+  border: 2px solid white;
+}
+
+/* Answer button */
+
+.answered-button {
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  background: #777;
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.answered-button:hover {
+  background: #555;
+}
